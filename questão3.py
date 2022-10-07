@@ -1,0 +1,10 @@
+n1 = float(input("Digite o 1° número: "))
+p1 = float(input("Digite o 1° peso: "))
+n2 = float(input("Digite o 2° número: "))
+p2 = float(input("Digite o 2° peso: "))
+n3 = float(input("Digite o 3° número: "))
+p3 = float(input("Digite o 3° peso: "))
+somaN = n1 * p1 + n2 * p2 + n3 * p3
+somaP = p1 + p2 + p3
+media = somaN / somaP
+print( f"O resultado da média ponderada é = { media } " )
